@@ -1,11 +1,11 @@
-import React, { Component, Fragment } from 'react';
+import React, { PureComponent, Fragment } from 'react';
 import Navbar from '../../components/navbar/Navbar';
 import FilterPanel from '../../components/home/FilterPanel';
 import DataTable from '../../components/home/DataTable';
 import { transactions } from '../../data.json';
 import '../../components/home/Home.scss';
 
-class Home extends Component {
+class Home extends PureComponent {
   constructor(props) {
     super(props);
     this.state = {

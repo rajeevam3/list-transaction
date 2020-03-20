@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
 
-class FilterPanel extends Component {
+class FilterPanel extends PureComponent {
   constructor(props) {
     super(props);
     this.state = {
